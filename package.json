@@ -1,0 +1,25 @@
+{
+  "name": "clothing-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mezmirra/clothing-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mezmirra/clothing-store/issues"
+  },
+  "homepage": "https://github.com/Mezmirra/clothing-store#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-less": "^3.3.0"
+  }
+}
