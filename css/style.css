@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+}
+
+.inner-container {
+    width: 1100px;
+    margin: auto;
+}
+
+.inner-container > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.7em;
+    margin-bottom: 1.5em;
+}
+
+.inner-container > h2:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100px;
+    background: #E8E8E8;
+    margin: 10px auto 0;
+}
+
+header {
+    margin: 20px 0 70px 0;
+    line-height: 70px;
+}
+
+header a {
+    text-decoration: none; 
+    color: #000;
+}
+
+.logo-section {
+    float: left;
+}
+
+.logo-section img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 80px;
+}
+
+.logo-text {
+    font-family: 'Lily Script One', cursive;
+}
+
+.logo-text span {
+    vertical-align: bottom;
+    font-size: 43px;
+    margin-left: 15px;
+}
+
+.menu-container {
+    float: right;
+}
+
+.menu-container li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu-container li:last-child {
+    margin-right: 0;
+}
+
+.menu-container a:hover {
+    color: #888688;
+}
+
+.menu-container a:active {
+    color: #D4D3D4;
+}
+
+
+/* catalog-page styles*/
+
+.catalog-item {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.catalog-item:nth-child(4n) {
+    margin: 60px 0 0;
+}
+
+.catalog-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.catalog-item a:hover {
+    border-bottom: solid 1px;
+}
+
+/* item-page styles*/
+
+.item-page .image-container {
+    width: 40%;
+    float: left;
+}
+
+.item-page .image-container img {
+    max-width: 100%;
+}
+
+.item-page .description-container {
+    width: 50%;
+    float: right;
+}
+
+.item-page .description-container h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 0.9em;
+}
+
+.item-page .description-container h3 {
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0.8em 0 0.5em;
+}
+
+.item-page .description-container p,
+.item-page .description-container li {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.item-page .description-container strong {
+    color: #7A7A7A;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.item-page .description-container .price {
+    color: #000;
+    margin-top: 2em;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.item-page .description-container .price strong {
+    font-weight: 400;
+}
+
+/* contacts-page styles*/
+
+.contacts h2 {
+    margin-bottom: 1em;
+}
+
+.contacts p {
+    line-height: 2em;
+}
+
+.writeus {
+    float: left;
+    width: 60%;
+}
+
+.writeus form {
+    padding: 0 20px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+textarea[placeholder],
+input[placeholder],
+select {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 0.9em;
+    padding: 10px;
+    text-align: left;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    display: inline-block;
+    background-color: #fff;
+    border: solid 1px #445162;
+    border-radius: 3px;
+    padding: 0 20px;
+    color: #445162;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    transition: 0.1s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #f1ffff;
+}
+
+button:active {
+    background-color: #f1f1f1;
+}
+
+
+.adress {
+    float: right;
+    width: 33%;
+}
+
+.map {
+    margin: 70px 0 -70px;
+}
+
+footer {
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    margin-top: 70px;
+    width: 100%;
+}
+
+footer.footer-main {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.copyrights {
+    
+}
