@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-/*var less = require('gulp-less');
+var less = require('gulp-less');
 var concatCss = require('gulp-concat-css');
 var cleanCSS = require('gulp-clean-css');
  
@@ -15,4 +15,4 @@ gulp.task('watch', function () {
     gulp.watch('app/styles/*.less', ['css']);
 });
 
-gulp.task('default', ['css', 'watch']);*/
+gulp.task('default', ['css', 'watch']);
